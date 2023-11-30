@@ -4,7 +4,14 @@
     font-family: 'Roboto', sans-serif;
 }
 
-#baner,
+#baner {background-image: linear-gradient(rgba(0, 0, 0, 0.75), rgba(0, 0, 0, 0.75)), url('../web-design/images/tim/pexels-auto-records-10126663.jpg');
+    height: 100vh;
+    width: 100%;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: fixed;
+}
 #baner1 {
     background-image: linear-gradient(rgba(0, 0, 0, 0.75), rgba(0, 0, 0, 0.75)), url('../web-design/images/tim/pexels-auto-records-10126665.jpg');
     height: 100vh;
@@ -23,7 +30,9 @@
     background-repeat: no-repeat;
     background-position: fixed;
 }
-
+.logo{
+    width:5em;
+}
 .logo:hover {
     cursor: pointer;
 }
@@ -48,8 +57,8 @@
     text-decoration: none;
     color: white;
     text-transform: uppercase;
+    
 }
-
 .navbar ul li::after {
     content: '';
     height: 0.2em;
@@ -89,14 +98,19 @@
 
 .button {
     width: 12em;
-    padding: 1.9em 0;
+    padding: 1em 0;
     text-align: center;
-    margin: 1.25em 0.6em;
-    border: 0.1em solid #fcba03;
+    margin: 1em;
+    border: 0.1em solid yellow;
     border-radius: 0.3em;
     font-weight: bold;
     background: transparent;
     color: white;
+    animation: bordercolor 2s infinite alternate;
+}
+@keyframes bordercolor{
+    from {border-color: yellow;}
+    to {border-color: red;}
 }
 
 .button:hover {
@@ -130,20 +144,64 @@ html {
 .reason {
     height: 37.5em;
     width: 25em;
-    margin: 4.5em;
-    margin-top: 3.7em;
+    margin: 7em;
+    margin-top: 2em;
     background-color: black;
     border: 1.2em solid;
     border-radius: 0.9em;
     margin-bottom: 1.2em;
     margin-right: 7.7em;
 }
-
+/*.reason:hover{
+    border: 2em solid;
+    transition: 0.5s;
+    box-shadow: 0 0 60px#000;
+}
+*/
+.wrap{
+    width: 100%;
+    height:100vh;
+    background-image:linear-gradient(rgba(0, 0, 0, 0.75), rgba(0, 0, 0, 0.75)), url('../web-design/images/bb87b255392609.5f63b1d2d6124.jpg') ;
+    text-align: center;
+}
+.wrap h1{
+    color:#fff;
+    text-align: center;
+    padding-top: 8em;
+}
+.wrap hgroup{
+    text-align:center;
+    color:#fff;
+    padding-top:2em;
+    font-weight: 700;
+}
+.btnvf{
+    width: 12em;
+    padding: 1em 0;
+    text-align: center;
+    margin: 1em;
+    border: 0.1em solid yellow;
+    border-radius: 0.3em;
+    font-weight: bold;
+    background: transparent;
+}
+.btnvf:hover{
+    cursor: pointer;
+    box-shadow: 0px 0px 10px #fff;
+    transition: 0.5s;
+    background-color: #000;
+    width:12.2em;
+    height:3.5em;
+    transition:0.5s;
+}
 .reason h2 {
     color: #fff;
     padding-top: 10%;
 }
-
+.btnvf a{
+    text-decoration: none;
+    color: #fff;
+}
 .reason p {
     color: white;
     font-size: 1em;
@@ -164,6 +222,7 @@ html {
 .photo3 {
     height: 27em;
     width: 70%;
+    margin-top: 10%;
 }
 
 #why-choose-us h1 {
@@ -328,7 +387,7 @@ footer {
 
 .socialIcons a i {
     font-size: 2em;
-    color: black;
+    color: white;
     opacity: 0.9;
 }
 
@@ -476,4 +535,10 @@ footer {
     width:100%;
     margin-bottom: 0.9em;
     border-radius: 1em;
+}
+#main2{
+    height:100vh;
+}
+.comain{
+    height:50vh;
 }
