@@ -5,7 +5,7 @@
 }
 
 #baner {background-image: linear-gradient(rgba(0, 0, 0, 0.75), rgba(0, 0, 0, 0.75)), url('../web-design/images/tim/pexels-auto-records-10126663.jpg');
-    height: 100vh;
+    height: 62.5em;
     width: 100%;
     background-position: center;
     background-size: cover;
@@ -14,7 +14,7 @@
 }
 #baner1 {
     background-image: linear-gradient(rgba(0, 0, 0, 0.75), rgba(0, 0, 0, 0.75)), url('../web-design/images/tim/pexels-auto-records-10126665.jpg');
-    height: 100vh;
+    height: 62.5em;
     width: 100%;
     background-position: center;
     background-size: cover;
@@ -23,7 +23,7 @@
 }
 #baner2{
     background-image: linear-gradient(rgba(0, 0, 0, 0.75), rgba(0, 0, 0, 0.75)), url('../web-design/images/tim/pexels-auto-records-10126666.jpg');
-    height: 100vh;
+    height: 62.5em;
     width: 100%;
     background-position: center;
     background-size: cover;
@@ -163,7 +163,7 @@ html {
 */
 .wrap{
     width: 100%;
-    height:100vh;
+    height:62.5em;
     background-image:linear-gradient(rgba(0, 0, 0, 0.75), rgba(0, 0, 0, 0.75)), url('../web-design/images/bb87b255392609.5f63b1d2d6124.jpg') ;
     text-align: center;
 }
@@ -312,13 +312,13 @@ html {
 }
 
 #O_osnivacu {
-    height: 100vh;
+    height: 62.5em;
     width: 100%;
     background-color: white;
     text-align: center;
 }
 .section{
-    min-height: 100vh;
+    min-height: 62.5em;
     background-image: linear-gradient(rgba(0,0,0,0.70), rgba(0,0,0,0.70)), url('../web-design/images/IMG_1134.jpg');
     background-position: center;
     background-repeat: no-repeat;
@@ -547,25 +547,25 @@ input::-webkit-inner-spin-button {
     border-radius: 1em;
 }
 #main2{
-    height:100vh;
+    height:62.5em;
     background-image: linear-gradient(rgba(0,0,0,0.70), rgba(0,0,0,0.70)), url('../web-design/images/klasik/klasik.jpg');
     background-position: cover;
     background-repeat: no-repeat;
 }
 #main1{
-    height:100vh;
+    height:62.5em;
     background-image: linear-gradient(rgba(0,0,0,0.70), rgba(0,0,0,0.70)), url('../web-design/images/Avery+MAIN.jpg');
     background-position: cover;
     background-repeat: no-repeat;
 }
 #main3{
-    height:100vh;
+    height:62.5em;
     background-image: linear-gradient(rgba(0,0,0,0.70), rgba(0,0,0,0.70)), url('../web-design/images/sport/CRW_4105.jpg');
     background-position: cover;
     background-repeat: no-repeat;
 }
 #main4{
-    height:100vh;
+    height:62.5em;
     background-image: linear-gradient(rgba(0,0,0,0.70), rgba(0,0,0,0.70)), url('../web-design/images/CRW_4846.jpg');
     background-position: cover;
     background-repeat: no-repeat;
@@ -573,7 +573,7 @@ input::-webkit-inner-spin-button {
 .contentbox{
     max-width: 60%;
     background-color:#000;
-    height:70vh;
+    height:43.75em;
     display:flex;
     position: absolute;
     left:23em;
@@ -583,7 +583,7 @@ input::-webkit-inner-spin-button {
 .contentbox1{
     max-width: 60%;
     background-color:#000;
-    height:70vh;
+    height:43.75em;
     display:flex;
     position: absolute;
     left:23em;
@@ -592,7 +592,7 @@ input::-webkit-inner-spin-button {
 .contentbox2{
     max-width: 60%;
     background-color:#000;
-    height:70vh;
+    height:43.75em;
     display:flex;
     position: absolute;
     left:23em;
@@ -601,7 +601,7 @@ input::-webkit-inner-spin-button {
 .contentbox3{
     max-width: 60%;
     background-color:#000;
-    height:70vh;
+    height:43.75em;
     display:flex;
     position: absolute;
     left:23em;
