@@ -388,17 +388,17 @@ footer {
 .socialIcons a {
     text-decoration: none;
     margin: 1.25em;
-    padding: 1.25em;
 }
 
 .socialIcons a i {
     font-size: 2em;
     color: white;
     opacity: 0.9;
+    
 }
 
 .slika6 {
-    height: 2.5em;
+   
     color: white;
 }
 
