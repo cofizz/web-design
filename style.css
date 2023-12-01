@@ -487,6 +487,11 @@ footer {
     transition: 0.3s;
     padding: 0.5em;
 }
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
 
 .field:focus {
     background-color: white;
