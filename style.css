@@ -44,6 +44,8 @@
     display: flex;
     align-items: center;
     justify-content: space-between;
+    height:8em;
+    padding-top:0;
 }
 
 .navbar ul li {
@@ -94,6 +96,7 @@
     font-weight: 100;
     line-height: 1.5;
     font-size: 1.25em;
+    font-weight: 700;
 }
 
 .button {
@@ -172,8 +175,9 @@ html {
 .wrap hgroup{
     text-align:center;
     color:#fff;
-    padding-top:2em;
+    padding-top:5em;
     font-weight: 700;
+    
 }
 .btnvf{
     width: 12em;
@@ -184,6 +188,7 @@ html {
     border-radius: 0.3em;
     font-weight: bold;
     background: transparent;
+    margin-top: 4em;
 }
 .btnvf:hover{
     cursor: pointer;
@@ -204,7 +209,7 @@ html {
 }
 .reason p {
     color: white;
-    font-size: 1em;
+    font-size: 1.1em;
     line-height: 1.5;
 }
 
@@ -249,6 +254,7 @@ html {
     padding-top: 5%;
     padding-left: 3.75%;
     padding-right: 3.75%;
+    max-width: 80em;
 }
 
 #main h3 {
@@ -470,9 +476,8 @@ footer {
 }
 
 .right {
-    padding: 1.5625em 2.5em;
+    padding: 1.6em 2.5em;
 }
-
 .field {
     width: 100%;
     border: 0.1em solid black;
@@ -538,7 +543,90 @@ footer {
 }
 #main2{
     height:100vh;
+    background-image: linear-gradient(rgba(0,0,0,0.70), rgba(0,0,0,0.70)), url('../web-design/images/klasik/klasik.jpg');
+    background-position: cover;
+    background-repeat: no-repeat;
 }
-.comain{
-    height:50vh;
+#main1{
+    height:100vh;
+    background-image: linear-gradient(rgba(0,0,0,0.70), rgba(0,0,0,0.70)), url('../web-design/images/Avery+MAIN.jpg');
+    background-position: cover;
+    background-repeat: no-repeat;
+}
+#main3{
+    height:100vh;
+    background-image: linear-gradient(rgba(0,0,0,0.70), rgba(0,0,0,0.70)), url('../web-design/images/sport/CRW_4105.jpg');
+    background-position: cover;
+    background-repeat: no-repeat;
+}
+#main4{
+    height:100vh;
+    background-image: linear-gradient(rgba(0,0,0,0.70), rgba(0,0,0,0.70)), url('../web-design/images/CRW_4846.jpg');
+    background-position: cover;
+    background-repeat: no-repeat;
+}
+.contentbox{
+    max-width: 60%;
+    background-color:#000;
+    height:70vh;
+    display:flex;
+    position: absolute;
+    left:23em;
+    top:71em;
+    
+}
+.contentbox1{
+    max-width: 60%;
+    background-color:#000;
+    height:70vh;
+    display:flex;
+    position: absolute;
+    left:23em;
+    top:135.4em;
+}
+.contentbox2{
+    max-width: 60%;
+    background-color:#000;
+    height:70vh;
+    display:flex;
+    position: absolute;
+    left:23em;
+    top:196.6em;
+}
+.contentbox3{
+    max-width: 60%;
+    background-color:#000;
+    height:70vh;
+    display:flex;
+    position: absolute;
+    left:23em;
+    top:259em;
+}
+.img1{
+    width:30em
+}
+.leftside img{
+    height: 38em;
+    margin: 2em;
+    border: 1px solid black;
+    border-radius:1em;
+}
+.rightside{
+    width:51em;
+}
+.rightside h1{
+    color:white;
+    text-align:center;
+    padding-top:2em;
+}
+.rightside p{
+    color:#fff;
+    margin: 0 2em;
+    padding-top:4em;
+    font-size:1.5em;
+}
+.rightside span{
+        font-weight: bold;
+        display: table;
+        margin: 0;
 }
